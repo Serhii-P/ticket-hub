@@ -1,0 +1,14 @@
+{
+  "Functional React TS component": {
+    "prefix": "efrc",
+    "body": [
+      "import { FC } from 'react';",
+      "",
+      "interface ${1:name}Props {}",
+      "",
+      "export const ${1:name}: FC<${1:name}Props> = ({}) => {",
+      "\treturn <div>$0</div>",
+      "}"
+    ]
+  }
+}
